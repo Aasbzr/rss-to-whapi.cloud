@@ -1,0 +1,10 @@
+{
+  "feeds": [
+    {
+      "name": "Bollettino Sala Stampa - Vaticano",
+      "url": "https://press.vatican.va/content/salastampa/it/bollettino.feedrss.xml",
+      "language": "it",
+      "enabled": true
+    }
+  ]
+}
