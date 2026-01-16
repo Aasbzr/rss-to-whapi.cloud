@@ -10,8 +10,8 @@ require 'nokogiri'
 require 'date'
 
 # Check for required environment variables
-unless ENV['WHATSAPP_API_TOKEN'] && ENV['WHATSAPP_CHANNEL']
-  warn "Error: WHATSAPP_API_TOKEN and WHATSAPP_CHANNEL environment variables must be set"
+unless ENV['PFuW3aOEiHzRAQCIfcSrPUCQv1B9ZD4s'] && ENV['WOLVRN-DXA6N']
+  warn "Error: PFuW3aOEiHzRAQCIfcSrPUCQv1B9ZD4s and WOLVRN-DXA6N environment variables must be set"
   exit 1
 end
 ENDPOINT = URI('https://gate.whapi.cloud/messages/text') # Whapi.Cloud "send text message" endpoint
